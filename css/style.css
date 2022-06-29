@@ -1,0 +1,94 @@
+*{
+    background-origin:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;800;900&family=Kdam+Thmor+Pro&family=Montserrat:wght@200;300;400;500&display=swap');
+body{
+    background-color: grey;
+}
+.container{
+    border: 2px solid rgba(188, 197, 152, 0.763);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainHeader{
+    color: aqua;
+    margin: 50px 0;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+}
+.mainHeader:hover{
+    opacity: .7;
+    cursor: pointer;
+    background-color: aqua;
+    color: #fff;
+}
+.items{
+    display: flex;
+    width: 80%;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    /* background-color: rgba(245, 245, 220, 0.715); */
+    height: 100px;
+}
+.items li{
+    list-style-type: none;
+    cursor: pointer;
+    color: darksalmon;
+    font-size: large;
+    width: 10%;
+    line-height: inherit;
+    /* background-color: #fff; */
+}
+.items li img{
+    width: 100%;
+    line-height: inherit;
+    /* border: 2px solid red; */
+    padding: 15px;
+}
+.items li img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 gray ;
+}
+.yourChoice{
+    /* border: 2px solid green; */
+    width: 70%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color:#fff;
+}
+#computePriceBtn{
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    background-color: orange;
+    border-radius:12px ;
+    margin: 20px ;
+}
+#computePriceBtn:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+.yourChoice li{
+    width: 20%;
+    list-style-type: none;
+}
+.yourChoice li img{
+    width: 20%;
+}
+.tPrice{
+color: rgb(64, 17, 167);
+}
